@@ -98,3 +98,10 @@ While installing cuda and nvidia drivers on linux, the common issues are :
 * This setting works when both (or all) the GPUs belong to the same series (In this case, both belongs to the GeForce 1080 series). I am not sure how the driver installation works for GPUs from two series are there.
 
 * CUDA with MATLAB : When you are trying to call `gpuDevice(1)` in an older MATLAB version after the CUDA install, it takes some time since the old MATLAB is unaware of the latest GPU. It then searches the web and gather required infor for the device. From second time onwards, this will go smooth as the new CUDA details are cached by MATLAB.
+
+----
+## References ##
+1. [CUDA installation page](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html).
+2. CUDA Installation Guide [PDF](http://developer.download.nvidia.com/compute/cuda/7.5/Prod/docs/sidebar/CUDA_Installation_Guide_Linux.pdf).
+3. [https://askubuntu.com/questions/799184/how-can-i-install-cuda-on-ubuntu-16-04](https://askubuntu.com/questions/799184/how-can-i-install-cuda-on-ubuntu-16-04)
+4. [https://askubuntu.com/questions/767269/how-can-i-install-cudnn-on-ubuntu-16-04](https://askubuntu.com/questions/767269/how-can-i-install-cudnn-on-ubuntu-16-04)
