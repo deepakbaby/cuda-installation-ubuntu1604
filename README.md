@@ -96,3 +96,5 @@ While installing cuda and nvidia drivers on linux, the common issues are :
 
 ## Misc ##
 * This setting works when both (or all) the GPUs belong to the same series (In this case, both belongs to the GeForce 1080 series). I am not sure how the driver installation works for GPUs from two series are there.
+
+* CUDA with MATLAB : When you are trying to call `gpuDevice(1)` in an older MATLAB version after the CUDA install, it takes some time since the old MATLAB is unaware of the latest GPU. It then searches the web and gather required infor for the device. From second time onwards, this will go smooth as the new CUDA details are cached by MATLAB.
