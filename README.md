@@ -34,7 +34,7 @@ While installing cuda and nvidia drivers on linux, the common issues are :
 
 3. Install the kernel headers for the current Ubuntu installation.
     ```bash
-    $ sudo apt-get intsall linux-headers-$(uname -r)
+    $ sudo apt-get install linux-headers-$(uname -r)
     ```
     For other linux flavors, this step is different (Refer [here](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#pre-installation-actions) to install the required header files for your distro).
   
@@ -82,7 +82,7 @@ While installing cuda and nvidia drivers on linux, the common issues are :
  
 11. Install the NVIDIA graphics driver:
     ```bash
-    sudo ./cuda<version>.<repo>.run -a --no-opengl-files
+    sudo ./NVIDIA-Linux-<version>.<repo>.run -a --no-opengl-files
     ```
     Notice the change f option `--no-opengl-files` here. Follow the instructions as above to finish the installation. 
   
