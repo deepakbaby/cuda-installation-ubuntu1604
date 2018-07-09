@@ -1,4 +1,4 @@
-# cuda-installation-ubuntu1604
+# CUDA Installation Ubuntu 16.04
 Guidelines for installing CUDA and cuDNN on Ubuntu-16.04 (other linux flavors as well)
 
 The procedure is tested on a server with two different GPUs (GeForce 1080p and Tesla Xp).
